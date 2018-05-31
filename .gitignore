@@ -1,0 +1,6 @@
+sh.exe.stackdump
+.idea/
+composer.lock
+/vendor/*
+vendor/
+.DS_Store

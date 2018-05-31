@@ -1,0 +1,25 @@
+{
+  "name": "laravel/yz",
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+
+  "require": {
+    "php": ">=5.6"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelYz\\ServiceProvider"
+      ],
+      "aliases": {
+        "LaravelYz": "LaravelYz\\Facades\\LaravelYz"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Collective\\Html\\": "src/"
+    }
+  }
+}
